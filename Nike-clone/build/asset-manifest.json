@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.133b8777.css",
+    "main.js": "/static/js/main.b38bf5a0.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/branding.jpg": "/static/media/branding.75224baa94a668ec1a5e.jpg",
+    "static/media/dressToImpress.jpg": "/static/media/dressToImpress.63af4b1c8f91c9f90cee.jpg",
+    "static/media/1e8674ca-9bad-49b2-9c92-9618d9d73bff.webp": "/static/media/1e8674ca-9bad-49b2-9c92-9618d9d73bff.1597f1bb7995dee63970.webp",
+    "static/media/shoe3.jpg": "/static/media/shoe3.a2940c93d1cdf9226f74.jpg",
+    "static/media/shoe4.jpg": "/static/media/shoe4.ccc45640d6a605dd1940.jpg",
+    "static/media/shoe5.jpg": "/static/media/shoe5.df7c67ae31e7760ed2a6.jpg",
+    "static/media/mens.jpg": "/static/media/mens.a6656eb8beb6120e0a14.jpg",
+    "static/media/shoe1.jpg": "/static/media/shoe1.e21c3a1373e46576f976.jpg",
+    "static/media/shoe2.jpg": "/static/media/shoe2.9868fd9c5f5046a5ef2a.jpg",
+    "static/media/womens.jpg": "/static/media/womens.0d4d1329b79fc7f3b09e.jpg",
+    "static/media/kids.jpg": "/static/media/kids.7b21cfd8991c725e6c98.jpg",
+    "static/media/instagram.png": "/static/media/instagram.63e124f84c7f4ddcd407.png",
+    "static/media/twitter.png": "/static/media/twitter.d3d70610fea6c8fc50cf.png",
+    "static/media/outline-heart.png": "/static/media/outline-heart.c412cbaead4744166c20.png",
+    "static/media/question.png": "/static/media/question.a97e45146636971d8892.png",
+    "static/media/facebook.png": "/static/media/facebook.45e4aad75d041e6e0523.png",
+    "static/media/location.png": "/static/media/location.a405c2668c55f74c09be.png",
+    "static/media/favicon.ico": "/static/media/favicon.c8184c0b7690175f07d1.ico",
+    "static/media/TeamCollection.jpg": "/static/media/TeamCollection.3f28b3aa524ddd1971ea.jpg",
+    "static/media/outline-star.png": "/static/media/outline-star.190d870d386afd29523a.png",
+    "static/media/youtube.png": "/static/media/youtube.1490801fa7fa633aef8b.png",
+    "static/media/bag.png": "/static/media/bag.9c816c6b923ef947a58e.png",
+    "static/media/box.png": "/static/media/box.214ef3b33332990f750d.png",
+    "static/media/dustbin.png": "/static/media/dustbin.3dd6b0bd6bc6f6362ecd.png",
+    "static/media/search.png": "/static/media/search.ca7aae46e8e72453beed.png",
+    "static/media/filled-heart.png": "/static/media/filled-heart.bf2e642ba8736cc4acdc.png",
+    "static/media/edit.png": "/static/media/edit.0f46e2728eb984e21ce8.png",
+    "index.html": "/index.html",
+    "main.133b8777.css.map": "/static/css/main.133b8777.css.map",
+    "main.b38bf5a0.js.map": "/static/js/main.b38bf5a0.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.133b8777.css",
+    "static/js/main.b38bf5a0.js"
+  ]
+}

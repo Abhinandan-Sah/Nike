@@ -1,0 +1,22 @@
+const mongoose = require("mongoose");
+const { Schema } = mongoose;
+const favouriteSchema = new Schema({
+  quantity: { type: Number, require: true },
+  product: { type: Schema.Types.ObjectId, ref: "Product", require: true },
+  user: { type: Schema.Types.ObjectId, ref: "User", require: true },
+  size: { type: String, ref: "Size", require: true },
+  color: { type: String, ref: "Color", require: true },
+});
+const virtual = favouriteSchema.virtual("id");
+virtual.get(function () {
+  return this._id;
+});
+favouriteSchema.set("toJSON", {
+  virtuals: true,
+  versionKey: false,
+  transform: function (doc, ret) {
+    delete ret._id;
+  },
+});
+
+exports.Favourite = mongoose.model("Favourite", favouriteSchema);
