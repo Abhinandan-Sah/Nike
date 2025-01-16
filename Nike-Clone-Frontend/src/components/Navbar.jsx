@@ -13,6 +13,7 @@ import SlidingNavbar from "./SlidingNavbar";
 const Navbar = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [open, setOpen] = useState(false);
   const cartItems = useSelector(selectCartItems);
   const user = useSelector(selectLogginUser);
   const loginOption = ["Find a store", "Help", "Join us", "Login"];
@@ -239,8 +240,8 @@ const Navbar = () => {
               </div>
             </Link>
             <img src={userImg} className="w-8 h-8 md:hidden  " alt="" />
-            <img src={Hamburger} className="w-7 h-7 md:hidden" alt="" />
-            <SlidingNavbar />
+            <img src={Hamburger} onClick={()=>setOpen(true)} className="w-7 h-7 md:hidden" alt="" />
+            <SlidingNavbar open={open} setOpen={setOpen} />
           </div>
         </div>
       </div>
