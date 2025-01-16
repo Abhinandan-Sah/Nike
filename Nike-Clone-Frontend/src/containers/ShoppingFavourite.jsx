@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   deleteFromFavouriteAsync,
   selectfavouriteItems,
-} from "../features/favourite/favouriteSlice";
+} from "../../../../TheRotties/Nike-Clone-Frontend/src/features/favourite/favouriteSlice";
 import { Link } from "react-router-dom";
-import { indiaCurrency } from "../constants/services";
+import { indiaCurrency } from "../../../../TheRotties/Nike-Clone-Frontend/src/constants/services";
 import leftArrow from "../assets/left-arrow.png";
 import rightArrow from "../assets/right-arrow.png";
 import outlineHeart from "../assets/outline-heart.png";
@@ -13,8 +13,8 @@ import filledHeart from "../assets/filled-heart.png";
 import {
   fetchProductYouMayAlsoLikeAsync,
   selectProductYouMayAlsoLike,
-} from "../features/product/productSlice";
-import { addToCartAsync } from "../features/cart/cartSlice";
+} from "../../../../TheRotties/Nike-Clone-Frontend/src/features/product/productSlice";
+import { addToCartAsync } from "../../../../TheRotties/Nike-Clone-Frontend/src/features/cart/cartSlice";
 
 const ShoppingFavourite = () => {
   const dispatch = useDispatch();
