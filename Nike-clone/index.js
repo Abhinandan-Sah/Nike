@@ -147,4 +147,5 @@ async function main() {
 
 server.listen(port, () => {
   console.log("Server started");
+  console.log("Server started");
 });
